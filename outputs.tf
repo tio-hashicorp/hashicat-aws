@@ -6,3 +6,8 @@ output "catapp_url" {
 output "catapp_ip" {
   value = "http://${aws_eip.hashicat.public_ip}"
 }
+
+output "catapp_ip2" {
+  value = "http://${aws_eip.hashicat.public_ip}"
+}
+
